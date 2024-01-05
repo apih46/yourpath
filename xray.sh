@@ -1001,7 +1001,7 @@ rm -rf /etc/systemd/system/xray@.service.d
 cat> /etc/systemd/system/xray.service << END
 [Unit]
 Description=XRAY-Websocket Service
-Documentation=https://NevermoreSSH-Project.net https://github.com/XTLS/Xray-core
+Documentation=https://Tomyam-Project.net https://github.com/XTLS/Xray-core
 After=network.target nss-lookup.target
 
 [Service]
@@ -1024,7 +1024,7 @@ END
 cat> /etc/systemd/system/xray@.service << END
 [Unit]
 Description=XRAY-Websocket Service
-Documentation=https://NevermoreSSH-Project.net https://github.com/XTLS/Xray-core
+Documentation=https://Tomyam-Project.net https://github.com/XTLS/Xray-core
 After=network.target nss-lookup.target
 
 [Service]

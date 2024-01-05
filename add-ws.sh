@@ -272,13 +272,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: NevermoreSSH-Autoscript
+  - name: Tomyam-Autoscript
     type: select
     proxies:
       - XRAY_VMESS_TLS_${user}
       - DIRECT
 rules:
-  - MATCH,NevermoreSSH-Autoscript
+  - MATCH,Tomyam-Autoscript
 EOF
 
 cat > /home/vps/public_html/$user-$exp-VMESSNTLS.yaml <<EOF
@@ -429,13 +429,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: NevermoreSSH-Autoscript
+  - name: Tomyam-Autoscript
     type: select
     proxies:
       - XRAY_VMESS_NTLS_${user}
       - DIRECT
 rules:
-  - MATCH,NevermoreSSH-Autoscript
+  - MATCH,Tomyam-Autoscript
 EOF
 
 clear
@@ -465,7 +465,7 @@ echo -e "Created On        : $hariini"
 echo -e "Expired On        : $exp"
 echo -e "═══════════════════"
 echo -e ""
-echo -e "Script Mod By NevermoreSSH"
+echo -e "Script Mod By Tomyam"
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
 menu

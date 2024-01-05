@@ -1,4 +1,4 @@
-#Autoscript By NevermoreSSH
+#Autoscript By Tomyam
 red='\e[1;31m'
 green='\e[0;32m'
 purple='\e[0;35m'

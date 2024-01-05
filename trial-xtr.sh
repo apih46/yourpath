@@ -166,13 +166,13 @@ proxies:
     sni: ${domain}
     udp: true
 proxy-groups:
-  - name: NevermoreSSH-AUTOSCRIPT
+  - name: Tomyam-AUTOSCRIPT
     type: select
     proxies:
       - XRAY_TROJAN_TCP_${user}
       - DIRECT
 rules:
-  - MATCH,NevermoreSSH-AUTOSCRIPT
+  - MATCH,Tomyam-AUTOSCRIPT
 EOF
 
 systemctl restart xray@trojan.service
@@ -197,7 +197,7 @@ echo -e "Created On        : $hariini"
 echo -e "Expired On        : $exp"
 echo -e "═══════════════════"
 echo -e ""
-echo -e "Autoscript By NevermoreSSH"
+echo -e "Autoscript By Tomyam"
 echo -e ""
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "

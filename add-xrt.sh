@@ -226,13 +226,13 @@ proxies:
     sni: ${sni}
     udp: true
 proxy-groups:
-  - name: NevermoreSSH-AUTOSCRIPT
+  - name: Tomyam-AUTOSCRIPT
     type: select
     proxies:
       - XRAY_TROJAN_DIRECT_${user}
       - DIRECT
 rules:
-  - MATCH,NevermoreSSH-AUTOSCRIPT
+  - MATCH,Tomyam-AUTOSCRIPT
 EOF
 
 cat > /home/vps/public_html/$user-$exp-TRSPLICE.yaml <<EOF
@@ -376,13 +376,13 @@ proxies:
     sni: ${sni}
     udp: true
 proxy-groups:
-  - name: NevermoreSSH-AUTOSCRIPT
+  - name: Tomyam-AUTOSCRIPT
     type: select
     proxies:
       - XRAY_TROJAN_SPLICE_${user}
       - DIRECT
 rules:
-  - MATCH,NevermoreSSH-AUTOSCRIPT
+  - MATCH,Tomyam-AUTOSCRIPT
 EOF
 
 clear
@@ -417,7 +417,7 @@ echo -e "Expired On           : $exp"
 echo -e "═══════════════════"
 echo -e ""
 echo -e ""
-echo -e "Script Mod By NevermoreSSH"
+echo -e "Script Mod By Tomyam"
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
 menu

@@ -49,7 +49,7 @@ echo " Client Name : $user"
 echo " Expired On  : $exp"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-echo -e "Script Mod By NevermoreSSH"
+echo -e "Script Mod By Tomyam"
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
 menu

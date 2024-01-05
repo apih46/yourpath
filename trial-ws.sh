@@ -210,13 +210,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: NevermoreSSH-Autoscript
+  - name: Tomyam-Autoscript
     type: select
     proxies:
       - XRAY_VMESS_TLS_${user}
       - DIRECT
 rules:
-  - MATCH,NevermoreSSH-Autoscript
+  - MATCH,Tomyam-Autoscript
 EOF
 
 cat > /home/vps/public_html/$user-VMESSNTLS.yaml <<EOF
@@ -367,13 +367,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: NevermoreSSH-Autoscript
+  - name: Tomyam-Autoscript
     type: select
     proxies:
       - XRAY_VMESS_NON_TLS_${user}
       - DIRECT
 rules:
-  - MATCH,NevermoreSSH-Autoscript
+  - MATCH,Tomyam-Autoscript
 EOF
 
 systemctl restart xray.service
@@ -406,7 +406,7 @@ echo -e "Created On        : $hariini"
 echo -e "Expired On        : $exp"
 echo -e "═══════════════════"
 echo -e ""
-echo -e "Autoscript By NevermoreSSH"
+echo -e "Autoscript By Tomyam"
 echo -e ""
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "

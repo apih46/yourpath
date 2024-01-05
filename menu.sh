@@ -42,7 +42,7 @@ tmon="$(vnstat -i eth0 -m | grep "$(date +"%b '%y")" | awk '{print $9" "substr (
 clear
 echo ""
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
-echo -e "      ${WB}Multiport Websocket Autoscript By NevermoreSSH${NC}"
+echo -e "      ${WB}Multiport Websocket Autoscript By Tomyam${NC}"
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e "               ${WB}»»» Server Information «««${NC}             "
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
@@ -194,6 +194,10 @@ reboot
 19)
 clear
 vnstat
+;;
+90)
+clear
+lk
 ;;
 *)
 clear

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <h2 align="center">
- XRAY Multiport Websocket Free By Tomyam 
-<br> Support custom path / worryfree
+ XRAY Multiport Websocket Free By NevermoreSSH 
+<br> Support CustomPath / worryfree
   
 <h2 align="center"> ♦️Supported Linux Distribution♦️</h2>
 <p align="center"><img src="https://d33wubrfki0l68.cloudfront.net/5911c43be3b1da526ed609e9c55783d9d0f6b066/9858b/assets/img/debian-ubuntu-hover.png"width="400"></p>
@@ -35,7 +35,7 @@
   ```html
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/apih46/yourpath/main/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
-♦️ Installation ( Xray-core Official + IPV6 on ) Link<br>
+♦️ Installation ( Xray-core Custom + IPV6 on ) Link<br>
 
   ```html
 apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/apih46/yourpath/main/setup2.sh && chmod +x setup2.sh && ./setup2.sh

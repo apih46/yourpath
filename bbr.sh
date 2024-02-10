@@ -4,7 +4,7 @@
 # //	Author:	bhoikfostyahya
 # //	Dscription: Xray Menu Management
 # //	email: elliez667@gmail.com
-# //  telegram: Xx
+# //  telegram: https://t.me/todfix667
 # //====================================================
 
 source /etc/os-release
@@ -72,8 +72,8 @@ remove_all
 echo "net.core.default_qdisc=fq" >>/etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbrplus" >>/etc/sysctl.conf
 mkdir bbrplus && cd bbrplus
-wget -N --no-check-certificate https://github.com/Tomyam/BBRplus/releases/download/bbr5.15/Debian-Ubuntu_Optional_linux-headers-5.15.96-bbrplus_5.15.96-bbrplus-1_amd64.deb >/dev/null 2>&1
-wget -N --no-check-certificate https://github.com/Tomyam/BBRplus/releases/download/bbr5.15/Debian-Ubuntu_Required_linux-image-5.15.96-bbrplus_5.15.96-bbrplus-1_amd64.deb >/dev/null 2>&1
+wget -N --no-check-certificate https://github.com/NevermoreSSH/BBRplus/releases/download/bbr5.15/Debian-Ubuntu_Optional_linux-headers-5.15.96-bbrplus_5.15.96-bbrplus-1_amd64.deb >/dev/null 2>&1
+wget -N --no-check-certificate https://github.com/NevermoreSSH/BBRplus/releases/download/bbr5.15/Debian-Ubuntu_Required_linux-image-5.15.96-bbrplus_5.15.96-bbrplus-1_amd64.deb >/dev/null 2>&1
 dpkg -i Debian-Ubuntu_Optional_linux-headers-5.15.96-bbrplus_5.15.96-bbrplus-1_amd64.deb
 dpkg -i Debian-Ubuntu_Required_linux-image-5.15.96-bbrplus_5.15.96-bbrplus-1_amd64.deb
 cd .. && rm -rf bbrplus

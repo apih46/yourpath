@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Pon Pon
+# Auther  : Moch
 # (C) Copyright 2022
 # =========================================
 red='\e[1;31m'
@@ -74,21 +74,21 @@ chmod +x /var/log/xray
 mkdir -p /usr/local/etc/xray
 
 # Download XRAY Core Latest Link
-latest_version="$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases | grep tag_name | sed -E 's/.*"v(.*)".*/\1/' | head -n 1)"
+#latest_version="$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases | grep tag_name | sed -E 's/.*"v(.*)".*/\1/' | head -n 1)"
 
 # Installation Xray Core
-xraycore_link="https://github.com/XTLS/Xray-core/releases/download/v$latest_version/xray-linux-64.zip"
+#xraycore_link="https://github.com/NevermoreSSH/Xray-core/releases/download/v$latest_version/xray-linux-64.zip"
 
 # Unzip Xray Linux 64
-cd `mktemp -d`
-curl -sL "$xraycore_link" -o xray.zip
-unzip -q xray.zip && rm -rf xray.zip
-mv xray /usr/local/bin/xray
-chmod +x /usr/local/bin/xray
+#cd `mktemp -d`
+#curl -sL "$xraycore_link" -o xray.zip
+#unzip -q xray.zip && rm -rf xray.zip
+#mv xray /usr/local/bin/xray
+#chmod +x /usr/local/bin/xray
 
 #Download XRAY Core Dharak
-#wget -O /usr/local/bin/xray "https://raw.githubusercontent.com/apih46/yourpath/main/xray.linux.64bit"
-#chmod +x /usr/local/bin/xray
+wget -O /usr/local/bin/xray "https://raw.githubusercontent.com/apih46/yourpath/main/xray.linux.64bit"
+chmod +x /usr/local/bin/xray
 
 # generate certificates
 mkdir /root/.acme.sh
@@ -1001,7 +1001,7 @@ rm -rf /etc/systemd/system/xray@.service.d
 cat> /etc/systemd/system/xray.service << END
 [Unit]
 Description=XRAY-Websocket Service
-Documentation=https://Tomyam-Project.net https://github.com/XTLS/Xray-core
+Documentation=https://NevermoreSSH-Project.net https://github.com/XTLS/Xray-core
 After=network.target nss-lookup.target
 
 [Service]
@@ -1024,7 +1024,7 @@ END
 cat> /etc/systemd/system/xray@.service << END
 [Unit]
 Description=XRAY-Websocket Service
-Documentation=https://Tomyam-Project.net https://github.com/XTLS/Xray-core
+Documentation=https://NevermoreSSH-Project.net https://github.com/XTLS/Xray-core
 After=network.target nss-lookup.target
 
 [Service]

@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Pon Pon
+# Auther  : Moch
 # (C) Copyright 2022
 # =========================================
 clear
@@ -272,13 +272,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: Tomyam-Autoscript
+  - name: NevermoreSSH-Autoscript
     type: select
     proxies:
       - XRAY_VMESS_TLS_${user}
       - DIRECT
 rules:
-  - MATCH,Tomyam-Autoscript
+  - MATCH,NevermoreSSH-Autoscript
 EOF
 
 cat > /home/vps/public_html/$user-$exp-VMESSNTLS.yaml <<EOF
@@ -429,13 +429,13 @@ proxies:
         Host: ${domain}
     udp: true
 proxy-groups:
-  - name: Tomyam-Autoscript
+  - name: NevermoreSSH-Autoscript
     type: select
     proxies:
       - XRAY_VMESS_NTLS_${user}
       - DIRECT
 rules:
-  - MATCH,Tomyam-Autoscript
+  - MATCH,NevermoreSSH-Autoscript
 EOF
 
 clear
@@ -465,7 +465,7 @@ echo -e "Created On        : $hariini"
 echo -e "Expired On        : $exp"
 echo -e "═══════════════════"
 echo -e ""
-echo -e "Script Mod By Tomyam"
+echo -e "Gg"
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
 menu

@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Pon Pon
+# Auther  : Moch
 # (C) Copyright 2022
 # =========================================
 clear
@@ -225,13 +225,13 @@ proxies:
     sni: ${sni}
     udp: true
 proxy-groups:
-  - name: Tomyam-AUTOSCRIPT
+  - name: NevermoreSSH-AUTOSCRIPT
     type: select
     proxies:
       - XRAY_TROJAN_TCP_${user}
       - DIRECT
 rules:
-  - MATCH,Tomyam-AUTOSCRIPT
+  - MATCH,NevermoreSSH-AUTOSCRIPT
 EOF
 
 clear
@@ -254,7 +254,7 @@ echo -e "Created On        : $hariini"
 echo -e "Expired On        : $exp"
 echo -e "═══════════════════"
 echo -e ""
-echo -e "Script Mod By Tomyam"
+echo -e "Gg"
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "
 menu

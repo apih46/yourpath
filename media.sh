@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script Updater By Tomyam
+#Script Updater By NevermoreSSH
 Font_Black="\033[30m";
 Font_Red="\033[31m";
 Font_Green="\033[32m";
@@ -12,7 +12,7 @@ Font_Suffix="\033[0m";
 
 
 clear;
-echo -e "  \033[1;37m${Font_Purple}Media Stream Unlocker Test Mod By Tomyam${Font_Suffix}\033[0m";
+echo -e "  \033[1;37m${Font_Purple}Media Stream Unlocker Test Mod By NevermoreSSH${Font_Suffix}\033[0m";
 echo -e "  \033[1;37mVersion : 2.0 \033[0m";
 echo -e "  \033[1;37mTime    : $(date)\033[0m"
 
@@ -287,7 +287,7 @@ fi
 echo ""
 echo -e "${Font_Green}Finished Test${Font_Suffix}"
 echo -e ""
-echo -e "Script Mod By Tomyam"
+echo -e "Gg"
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${Font_Green}Enter${Font_White} ${CYAN}]${Font_White} Back to menu . . .") "
 menu

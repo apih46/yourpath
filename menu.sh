@@ -42,7 +42,7 @@ tmon="$(vnstat -i eth0 -m | grep "$(date +"%b '%y")" | awk '{print $9" "substr (
 clear
 echo ""
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
-echo -e "      ${WB}Multiport Websocket Autoscript By Tomyam${NC}"
+echo -e "      ${WB}Multiport Websocket Autoscript By NevermoreSSH${NC}"
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e "               ${WB}»»» Server Information «««${NC}             "
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
@@ -84,7 +84,8 @@ echo -e "  ${RB}21.${NC} ${YB}RESTORE ${NC}"
 echo -e "  ${RB}22.${NC} ${YB}REBOOT ${NC}"
 echo -e "  ${RB}23.${NC} ${YB}XRAY-CORE MENU ${NC}"
 echo -e "  ${RB}24.${NC} ${YB}SWAPRAM MENU ${NC}"
-echo -e "  ${RB}25.${NC} ${YB}EXIT ${NC}"
+echo -e "  ${RB}25.${NC} ${YB}CLEAR LOG ${NC}"
+echo -e "  ${RB}26.${NC} ${YB}EXIT ${NC}"
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e "                 ${WB}»»» Total Bandwidth «««${NC}             "
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
@@ -93,7 +94,7 @@ echo -e "  ${RB}♦️${NC} ${YB}Yesterday Usage     : $tyest ${NC}"
 echo -e "  ${RB}♦️${NC} ${YB}Monthly Data Usage  : $tmon ${NC}"
 echo -e "${BB}————————————————————————————————————————————————————————${WB}"
 echo ""
-read -p "Select From Options [ 1 - 25 ] : " menu
+read -p "Select From Options [ 1 - 26 ] : " menu
 case $menu in
 1)
 clear
@@ -173,9 +174,13 @@ wget -q -O /usr/bin/xraychanger "https://raw.githubusercontent.com/NevermoreSSH/
 ;;
 24)
 clear
-wget -q -O /usr/bin/swapram "https://raw.githubusercontent.com/apih46/SwapRam/main/swapram.sh" && chmod +x /usr/bin/swapram && swapram
+wget -q -O /usr/bin/swapram "https://raw.githubusercontent.com/NevermoreSSH/swapram/main/swapram.sh" && chmod +x /usr/bin/swapram && swapram
 ;;
 25)
+clear
+cleaner
+;;
+26)
 clear
 neofetch
 ;;
@@ -194,10 +199,6 @@ reboot
 19)
 clear
 vnstat
-;;
-90)
-clear
-lk
 ;;
 *)
 clear

@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Pon Pon
+# Auther  : Moch
 # (C) Copyright 2022
 # =========================================
 red='\e[1;31m'
@@ -50,10 +50,10 @@ ver=$VERSION_ID
 country="ID"
 state="Project"
 locality="Parit Buntar"
-organization="Tomyam-Project"
-organizationalunit="Tomyam-Project"
-commonname="Tomyam-Project"
-email="Tomyam-project@gmail.com"
+organization="NevermoreSSH-Project"
+organizationalunit="NevermoreSSH-Project"
+commonname="NevermoreSSH-Project"
+email="NevermoreSSH-project@gmail.com"
 
 # go to root
 cd
@@ -131,7 +131,7 @@ wget -O /etc/nginx/conf.d/vps.conf "https://${Server_URL}/vps.conf"
 apt -y install vnstat
 /etc/init.d/vnstat restart
 apt -y install libsqlite3-dev
-wget https://github.com/Tomyam/vnstat/releases/download/vnstat/vnstat-2.6.tar.gz
+wget https://github.com/NevermoreSSH/vnstat/releases/download/vnstat/vnstat-2.6.tar.gz
 tar zxvf vnstat-2.6.tar.gz
 cd vnstat-2.6
 ./configure --prefix=/usr --sysconfdir=/etc && make && make install

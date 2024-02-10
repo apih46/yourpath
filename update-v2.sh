@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script Updater By Tomyam
+#Script Updater By NevermoreSSH
 #OnigiriWebsocketPremium-V2
 red='\e[1;31m'
 green='\e[0;32m'
@@ -48,7 +48,7 @@ if [[ -e /usr/local/bin/xray ]]; then
 else
      echo -e "[ ${green}INFO${NC} ] XRAY Core CF-RAY Update Starting !"
 	 sleep 1
-     mv /usr/local/bin/xray /usr/local/bin/xray.bak && wget -q -O /usr/local/bin/xray "https://github.com/Tomyam/Xcore-custompath/releases/download/v1.0.0/xray.linux.64bit" && chmod 755 /usr/local/bin/xray
+     mv /usr/local/bin/xray /usr/local/bin/xray.bak && wget -q -O /usr/local/bin/xray "https://github.com/NevermoreSSH/Xcore-custompath/releases/download/v1.0.0/xray.linux.64bit" && chmod 755 /usr/local/bin/xray
 	 echo ""
      echo -e "[ ${green}INFO${NC} ] XRAY Core CF-RAY Successfully Install !"
 	 echo ""

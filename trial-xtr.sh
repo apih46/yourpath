@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Pon Pon
+# Auther  : Moch
 # (C) Copyright 2022
 # =========================================
 red='\e[1;31m'
@@ -166,13 +166,13 @@ proxies:
     sni: ${domain}
     udp: true
 proxy-groups:
-  - name: Tomyam-AUTOSCRIPT
+  - name: NevermoreSSH-AUTOSCRIPT
     type: select
     proxies:
       - XRAY_TROJAN_TCP_${user}
       - DIRECT
 rules:
-  - MATCH,Tomyam-AUTOSCRIPT
+  - MATCH,NevermoreSSH-AUTOSCRIPT
 EOF
 
 systemctl restart xray@trojan.service
@@ -197,7 +197,7 @@ echo -e "Created On        : $hariini"
 echo -e "Expired On        : $exp"
 echo -e "═══════════════════"
 echo -e ""
-echo -e "Autoscript By Tomyam"
+echo -e "Autoscript By NevermoreSSH"
 echo -e ""
 echo ""
 read -p "$( echo -e "Press ${orange}[ ${NC}${green}Enter${NC} ${CYAN}]${NC} Back to menu . . .") "

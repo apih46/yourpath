@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Pon Pon
+# Auther  : Moch
 # (C) Copyright 2022
 # =========================================
 clear
@@ -78,7 +78,7 @@ fi
 mkdir /var/lib/premium-script;
 mkdir /var/lib/crot-script;
 clear
-#echo -e "${red}♦️${NC} ${green}Established By Tomyam 2022${NC} ${red}♦️${NC}"
+#echo -e "${red}♦️${NC} ${green}Established By NevermoreSSH 2022${NC} ${red}♦️${NC}"
 #DOWNLOAD SOURCE SCRIPT
 echo -e "${red}    ♦️${NC} ${green} CUSTOM SETUP DOMAIN VPS     ${NC}"
 echo -e "${red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -149,7 +149,7 @@ echo -e "${RB}      .-------------------------------------------.${NC}"
 echo -e "${RB}      |${NC}      ${CB}Installation Has Been Completed${NC}      ${RB}|${NC}"
 echo -e "${RB}      '-------------------------------------------'${NC}"
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
-echo -e "      ${WB}Multiport Websocket Autoscript By Tomyam${NC}"
+echo -e "      ${WB}Multiport Websocket Autoscript By NevermoreSSH${NC}"
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e "  ${WB}»»» Protocol Service «««  |  »»» Network Protocol «««${NC}  "
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"

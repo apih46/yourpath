@@ -2,7 +2,7 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition V1.0
-# Auther  : Pon Pon
+# Auther  : Moch
 # (C) Copyright 2022
 # =========================================
 
@@ -42,8 +42,8 @@ export WARNING="${RED}\e[5m"
 export UNDERLINE="\e[4m"
 
 # // Exporting URL Host
-export Server_URL="Tomyam.github.io/lekong"
-export Server_URLL="raw.githubusercontent.com/Tomyam/perizinan/main"
+export Server_URL="NevermoreSSH.github.io/lekong"
+export Server_URLL="raw.githubusercontent.com/NevermoreSSH/perizinan/main"
 export Server_Port="443"
 export Server_IP="underfined"
 export Script_Mode="Stable"

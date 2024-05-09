@@ -1,6 +1,8 @@
 # XRAY Multiport Websocket
 
-$${\color{blue}Telegram \space \color{red}Bot \space \color{green}Features}$$
+No need register IP
+
+# $${\color{blue}Telegram \space \color{red}Bot \space \color{green}Features}$$
 
 ![tele](https://raw.githubusercontent.com/apih46/yourpath/main/others/tele.jpg) 
 

@@ -41,7 +41,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ## ⏩ XRAY MULTIPORT WEBSOCKET AUTOSCRIPT DETAILS ⏪
 <b>
 [ XRAY SERVICES ] <br>
-<br><sup><sub>♦️ XRAY VLESS, VMESS & TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
+<sup><sub>♦️ XRAY VLESS, VMESS & TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
 ♦️ XRAY TROJAN TCP XTLS 443<br>
 ♦️ XRAY TROJAN TCP TLS 443<br>
 </sub></sup>

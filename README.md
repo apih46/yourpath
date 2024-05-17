@@ -1,6 +1,6 @@
 # XRAY Multiport Websocket
 
-No need register IP
+\color{red}No need register IP
 
 # $${\color{blue}Telegram \space \color{red}Bot \space \color{green}Features}$$
 
@@ -41,14 +41,12 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ## ⏩ XRAY MULTIPORT WEBSOCKET AUTOSCRIPT DETAILS ⏪
 <b>
 [ XRAY SERVICES ] <br>
-<br>
-<sup><sub>♦️ XRAY VLESS, VMESS & TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
+<br><sup><sub>♦️ XRAY VLESS, VMESS & TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
 ♦️ XRAY TROJAN TCP XTLS 443<br>
 ♦️ XRAY TROJAN TCP TLS 443<br>
 </sub></sup>
   <br>
 [ OTHER SERVICES ] <br>
-<br>
 <sup><sub>♦️ SUPPORT CUSTOM PATH / MULTIPATH <br>
 ♦️ XRAY-CORE CHANGER LATEST <br>
 ♦️ NEW UPDATE BBRPLUS 5.15.96 <br>

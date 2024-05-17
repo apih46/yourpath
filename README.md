@@ -39,17 +39,17 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 <b>
 
 ## ⏩ XRAY MULTIPORT WEBSOCKET AUTOSCRIPT DETAILS ⏪
-<b><sup><sub>
+<b>
 [ XRAY SERVICES ] <br>
 <br>
-♦️ XRAY VLESS, VMESS & TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
+<sup><sub>♦️ XRAY VLESS, VMESS & TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
 ♦️ XRAY TROJAN TCP XTLS 443<br>
 ♦️ XRAY TROJAN TCP TLS 443<br>
-<br>
+
+  <br>
 [ OTHER SERVICES ] <br>
 <br>
-
-♦️ SUPPORT CUSTOM PATH / MULTIPATH <br>
+<sup><sub>♦️ SUPPORT CUSTOM PATH / MULTIPATH <br>
 ♦️ XRAY-CORE CHANGER LATEST <br>
 ♦️ NEW UPDATE BBRPLUS 5.15.96 <br>
 ♦️ BANDWITH MONITOR <br>

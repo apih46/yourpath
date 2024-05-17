@@ -39,7 +39,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 <b>
 
 ## ⏩ XRAY MULTIPORT WEBSOCKET AUTOSCRIPT DETAILS ⏪
-<b>
+<b><sup><sub>
 [ XRAY SERVICES ] <br>
 <br>
 ♦️ XRAY VLESS, VMESS & TROJAN WEBSOCKET TLS & NON-TLS 443/80<br>
@@ -63,4 +63,4 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ♦️ AUTOMATIC VPS AUTOREBOOT 06.00 GMT+8 <br>
 ♦️ AUTOMATIC DELETE EXPIRED ACCOUNT <br>
 ♦️ AUTOMATIC BACKUP & RESTORE USING
-   TELEGRAM BOT <br></br>
+   TELEGRAM BOT <br></br></sub></sup>

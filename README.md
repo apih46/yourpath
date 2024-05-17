@@ -1,6 +1,6 @@
 # XRAY Multiport Websocket
 
-\color{red}No need register IP
+No need register IP
 
 # $${\color{blue}Telegram \space \color{red}Bot \space \color{green}Features}$$
 
